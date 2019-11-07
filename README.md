@@ -15,9 +15,12 @@
 }
 ```
 
+При выполнении теста нужно склеить в один файл solution + imports + test
+
+
 ### Пример
 
-Пользовательская функция
+Solution (Пользовательская функция)
 
 ```javascript
 function double(n){
@@ -26,12 +29,12 @@ function double(n){
 }
 ```
 
-Перед тестом должно быть импортировано 
+Imports  
 ```javascript
 const { expect } = require('chai');
 ```
 
-Тест
+Tests
 
 ```javascript
 const etalonDouble = n => n * 2;
