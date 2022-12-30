@@ -18,6 +18,6 @@
   "homepage": "https://github.com/bogutski/mocha-chai-example#readme",
   "dependencies": {
     "chai": "^4.2.0",
-    "mocha": "^6.2.2"
+    "mocha": "^10.2.0"
   }
 }
